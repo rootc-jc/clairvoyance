@@ -35,11 +35,13 @@ LLVM_RELEASE=release_38
 
 LLVM_TOOLS=$(LLVM_DIR)/tools
 CLANG=$(LLVM_TOOLS)/clang
-CLANG_REPOSITORY=http://llvm.org/git/clang.git
+CLANG_REPOSITORY=https://github.com/llvm-mirror/clang.git
+#CLANG_REPOSITORY=http://llvm.org/git/clang.git
 
 LLVM_PROJECTS=$(LLVM_DIR)/projects
 COMPILER_RT=$(LLVM_PROJECTS)/compiler-rt
-COMPILER_RT_REPOSITORY=http://llvm.org/git/compiler-rt.git
+COMPILER_RT_REPOSITORY=https://github.com/llvm-mirror/compiler-rt.git
+#COMPILER_RT_REPOSITORY=http://llvm.org/git/compiler-rt.git
 
 OMP=$(LLVM_PROJECTS)/openmp
 OMP_REPOSITORY=https://github.com/llvm-mirror/openmp.git
