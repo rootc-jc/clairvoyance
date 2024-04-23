@@ -1,0 +1,10 @@
+UNROLL_COUNT=
+
+SRCS=source.c
+
+CFLAGS=
+CXXFLAGS=
+LDFLAGS=
+
+include $(LEVEL)/common/SWOOP/Makefile.targets
+include $(LEVEL)/common/SWOOP/Makefile.defaults
